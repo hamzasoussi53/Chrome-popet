@@ -1,0 +1,26 @@
+{
+  "name": "chrome-weasel",
+  "version": "1.0.0",
+  "description": "MCP server for full Chrome browser control via AI agents",
+  "main": "dist/mcp-server.js",
+  "bin": {
+    "chrome-weasel": "bin/chrome-weasel.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/ws": "^8.5.10",
+    "typescript": "^5.3.0"
+  },
+  "keywords": ["mcp", "chrome", "browser", "ai", "automation"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
