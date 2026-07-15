@@ -8,7 +8,9 @@
   },
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch"
+    "dev": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "ws": "^8.16.0"
@@ -16,9 +18,16 @@
   "devDependencies": {
     "@types/node": "^20.11.0",
     "@types/ws": "^8.5.10",
-    "typescript": "^5.3.0"
+    "typescript": "^5.3.0",
+    "vitest": "^4.1.10"
   },
-  "keywords": ["mcp", "chrome", "browser", "ai", "automation"],
+  "keywords": [
+    "mcp",
+    "chrome",
+    "browser",
+    "ai",
+    "automation"
+  ],
   "license": "MIT",
   "engines": {
     "node": ">=18.0.0"

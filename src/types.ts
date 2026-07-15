@@ -39,3 +39,12 @@ export interface ReadPageInput {
 export interface OpenTabInput {
   url: string;
 }
+
+export interface ChatAgentInteractInput {
+  tabId: number;
+  message: string;
+  promptSelector?: string;
+  sendSelector?: string;
+  responseSelector?: string;
+  timeout?: number;
+}
