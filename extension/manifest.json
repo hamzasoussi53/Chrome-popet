@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "chrome-weasel",
+  "version": "1.0.0",
+  "description": "MCP server bridge for Chrome browser control",
+  "permissions": [
+    "tabs",
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "service-worker.js"
+  }
+}
